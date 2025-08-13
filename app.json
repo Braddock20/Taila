@@ -26,12 +26,12 @@
     },
     "AUTO_REPLY_STATUS": {
       "description": "Enter yes for your bot to notify people that you have viewed there status",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "REPLY_STATUS_TEXT": {
       "description": "Enter here your message for your bot to notify people that you have viewed there status",
-      "value": "❤️",
+      "value": "ʏᴏᴜʀ sᴛᴀᴛᴜs ʜᴀᴠᴇ ʙᴇᴇɴ ᴠɪᴇᴡᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -41,7 +41,7 @@
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_READ": {
@@ -76,12 +76,12 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "254742530793",
+      "value": "",
       "required": false 
     },
     "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
-      "value": "💚,❤️,💖,💜,🖤",
+      "value": "💚,🚀,🌎,✅",
       "required": false 
     },
     "AUTO_REACT": {
@@ -96,12 +96,12 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Braddock",
+      "value": "ultra",
       "required": false
     },
     "SESSION_ID": {
       "description": "Your session ID",
-      "value": "ULTRAXAS-MD;;;H4sIAAAAAAAAA5VU25KqOBT9l8yj1sgdsaqrBhEBURTF69Q8BAgYm5tJUPGU/z6F3T2nq86ZMz08hRDWXmtl7f0NFCWmyEUNGHwDFcEXyFC7ZE2FwAAM6yRBBHRBDBkEA+A6V+MSWbepHgq8tjUQPW33ZB7eZueVm4/guZ8uBH60Y5b0Ah5dUNVhhqNfAB7USeKeKpFFTdWfBpZka75WslQuV2iTLALem+yn87lVN+YLeLSIEBNcpGZ1RDkiMHNRs4CYfI3+1e1s9Z3CXG5jjjB/a/Jrc31dSOu0Sp16VvhBZ+PbycrNuK/RV1Q9DZanhbIz9zjJ8GusGLY2PvcV7XatvddCUfqNN1zyt/UbfYrTAsVOjAqGWfNl32ud7opaWDrxSukTd19m+W4ZLBHz3Fw1K6b075YjCYG8Mb9GPOwsuGxiR/ebEbi9xi6kzWivLV+hYW0u0/og5sgoas7aGf5n4gvykZXX/+M7nFir7OzzIr6Hp5ouhmVvG9p1fFid3Z1byO54kzvQwHi7/xr9O1dyFjfZ7sNpeu15W1ZnbDPfWvH6PIT++NaHQmjq/nq20b/Th6wmv2Ipb8u+YvTs/XE1Jdx8e4RlPYsLW3cTKd0vHaHknU4WXMsZcV1Mr3HdZHvqUzQKAmM+vB/3U7+Xn+plAP3gXsbSndPT9OWp6BU1TgwG/KMLCEoxZQQyXBbtniB1AYwvKxQRxJ7uAlUOLmc+vBw9KMBy0ZkVyozLxHq1wjo/qnbmlh/NZdsSPfoCuqAiZYQoRbGNKStJM0OUwhRRMPjzeVGtZoLykqEJjsEACLKkSoIscqom/kF/vx4ho7Cqfi8QA12QkDKfITBgpEZd8PxBNkVT5EaaOFJNuW+auqiLOjc0TFmSZGmotQrzt6IBzhFlMK/AgFdlmdMkSZIef3VBgW7sLT6taJHvggQTytZFXWUljD+y9fERRlFZF2zVFJHRLhABg0/biDFcpLRVVheQREd8QUarAwwSmFH0j8+IoPhDy/vsMMq4vX5nv1seOH4OWu4t0A/eDHjhR3uy57G+xsuaqmqqooh9vj3Y7ndBAVss8FvryDvXFjpGDOKMggEw5j1B0aSxOZmrfepblm6mupHq4Lu2j6i+ZUEM4K2iJ28sCEmixUyFchRUuuOX/oyn3Bwu1FOwG8k+t375CQgYAM+Y6BnsrIsDWdF7dbI3NjfdTdhyqB28ih+ycbhWxtplGWWqpvjTcrvRtf0xI5w3dImxqlw9OmThUg5eDZiVzlQXXeP60laL0QVH6HOx3ShIjMI7DW8Yr5me6oe5pYj6aekGapnWJy7I0z6SFbpKlWum9YXZebwIxdTx+Ittjm/11FJ7+/p6C7ekvkej3M/Kk//WRM8mzt6HJ37PN36+Jhg9Z9G7//95i2/E27Bxj+4njPfp9i8TYhhzAoWhc1/GrBB7uxAJ9c5UfMN0zZEXeqP81JE4/tpZe2PwaFNfZZAlJcnbIVjEpHyGhJR1m16nSMpfFDOGjjN6V55ByvTvHfGTJhPUt1MLUlY2pEcwALwrHW2pjXejV9WKQfbRYEBvH2c4Bo+/Ab0TAOwCCAAA",
+      "value": "",
       "required": true
     },    
     "STARTING_BOT_MESSAGE": {
@@ -111,7 +111,7 @@
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "recording",
+      "value": "",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
