@@ -118,7 +118,7 @@ class HybridConfigManager {
                 AUTO_REJECT_CALL: process.env.AUTO_REJECT_CALL || 'no',
                 WELCOME_MESSAGE: process.env.WELCOME_MESSAGE || 'no',
                 GROUPANTILINK: process.env.GROUPANTILINK || 'no',
-                AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || 'no'
+                AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || 'yes'
             }
         };
         
@@ -366,8 +366,8 @@ module.exports = {
     WARN_COUNT: process.env.WARN_COUNT || '3',
   
     get AUTO_READ_STATUS() { return hybridConfig.getSetting('AUTO_READ_STATUS', 'yes'); },
-    get AUTO_DOWNLOAD_STATUS() { return hybridConfig.getSetting('AUTO_DOWNLOAD_STATUS', 'no'); },
-    get AUTO_REPLY_STATUS() { return hybridConfig.getSetting('AUTO_REPLY_STATUS', 'no'); },
+    get AUTO_DOWNLOAD_STATUS() { return hybridConfig.getSetting('AUTO_DOWNLOAD_STATUS', 'yes'); },
+    get AUTO_REPLY_STATUS() { return hybridConfig.getSetting('AUTO_REPLY_STATUS', 'yes'); },
     get MODE() { return hybridConfig.getSetting('PUBLIC_MODE', 'yes'); },
     get PM_PERMIT() { return process.env.PM_PERMIT || 'yes'; },
     get ETAT() { return hybridConfig.getSetting('PRESENCE', ''); },
@@ -381,8 +381,8 @@ module.exports = {
     get WELCOME_MESSAGE() { return hybridConfig.getSetting('WELCOME_MESSAGE', 'no'); },
     get GROUP_ANTILINK2() { return process.env.GROUPANTILINK_DELETE_ONLY || 'yes'; },
     get GROUP_ANTILINK() { return hybridConfig.getSetting('GROUPANTILINK', 'no'); },
-    get STATUS_REACT_EMOJIS() { return process.env.STATUS_REACT_EMOJIS || ""; },
-    get REPLY_STATUS_TEXT() { return process.env.REPLY_STATUS_TEXT || ""; },
+    get STATUS_REACT_EMOJIS() { return process.env.STATUS_REACT_EMOJIS || "❤️"; },
+    get REPLY_STATUS_TEXT() { return process.env.REPLY_STATUS_TEXT || "❤️"; },
     get AUTO_REACT() { return hybridConfig.getSetting('AUTO_REACT', 'no'); },
     get AUTO_REACT_STATUS() { return hybridConfig.getSetting('AUTO_REACT_STATUS', 'yes'); },
     get AUTO_REPLY() { return process.env.AUTO_REPLY || 'yes'; },
